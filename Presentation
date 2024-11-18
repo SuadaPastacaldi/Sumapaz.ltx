@@ -1,0 +1,198 @@
+
+\documentclass{beamer}
+\usepackage{graphicx} % Required for inserting images
+% usetheme function to change layout
+\usetheme{Frankfurt}
+%
+%
+%change colour of theme
+\usecolortheme{seahorse}
+%
+\title{Análisis Hidrológico para una Gestión Sostenible de la Cuenca del Río Sumapaz}
+\author{Suada Pastacaldi}
+\date{Noviembre 2024}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+
+
+\begin{frame}{Area de interés}
+ \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{Sumapaz.ltx/ubicacion.nacional.jpg}
+         
+        \column{0.5\textwidth}
+        \centering
+       Río Sumapaz, 
+Ubicado en la Cordillera Oriental, entre los departamentos de Cundinamarca y Tolima.
+    \end{columns} 
+\end{frame}
+
+
+\begin{frame}{Problematicas del area}
+
+\begin{itemize}
+    \item Vulnerabilidad al cambio climatico (imprevisibilidad de patrones climaticos)
+    \item Riesgos de inundacion/sequias
+    \item Deforestacion 
+    \item Cambio en el uso del suelo 
+    \item Contaminacion 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Materiales y métodos}
+\centering
+        \includegraphics[width=1\textwidth]{Sumapaz.ltx/Flujograma.jpg}    
+\end{frame}
+
+
+\section{Territorio}
+
+
+\begin{frame}{Indice de Presion  Demografica}
+IDP
+   \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{Sumapaz.ltx/IDP.png}
+        \caption*{\tiny Fuente: POMCA (COD. 2119)}
+          
+        \column{0.5\textwidth}
+        \centering
+       Espacialización índice de presión demográfica (IDP), en verde obscuro categoría “Baja”, en verde claro “Media”, “Alta” en naranja, y “Muy Alta” en rojo.
+    \end{columns} 
+\end{frame}
+
+
+\begin{frame}{Indice de Ambiente Critico}
+IAC
+   \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{Sumapaz.ltx/IDP.png}
+         \caption*{\tiny Fuente: POMCA (COD. 2119)}
+         
+        \column{0.5\textwidth}
+        \centering
+       Espacialización del Índice de ambiente critico (IAC), en verde obscuro categoría “Relativamente estable, conservado y sin amenazas inminentes”, en verde claro “Conservación aceptable y amenazas moderadas”, y en amarillo “En peligro, baja conservación y/o presiones fuertes”
+    \end{columns} 
+\end{frame}
+
+    
+\begin{frame}{Uso del suelo}
+     \centering
+    Porcion de territorio relacionada a una determinada actividad
+    \bigskip
+    \includegraphics[width=0.6\textwidth]{porcentajes.cobertura.png}
+    \caption*{\tiny Fuente: POMCA (COD. 2119)}
+\end{frame}
+
+
+
+\section{Morfometria}
+
+
+\begin{frame}{Caracteristicas morfometricas de la cuenca}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{Sumapaz.ltx/red.hidrica.jpg}
+  
+         
+        \column{0.5\textwidth}
+     \begin{itemize}
+    \item Area y Forma: $3042 km^2$, Oval-Rectangular oblonga
+    \item Elevacion: $280-4400 msnm$
+    \item Pendientes: $16, 8, 3 $ respectivamente, Cuenca, Red, Cauce principal
+    \item Tiempo de concentracion: $12 horas$
+    \item Red de drenaje: $1.39 km^{-1}$
+      \end{itemize}
+      
+    \end{columns} 
+\end{frame}
+
+
+\section{Hidrologia}
+
+\begin{frame}{Balance Hidrico}
+     \centering
+    \includegraphics[width=1\textwidth]{Sumapaz.ltx/BH.png}
+\end{frame}
+
+\begin{frame}{Caudal}
+\smallskip
+\centering
+Con referencia a la estacion de Melgar \\COOR:\\
+\begin{itemize}
+    \item Latitudine: $4.21^\circ\ \text{N}$
+    \item Longitudine: $-74.64^\circ\ \text{W}$
+\end{itemize}
+
+
+   \begin{columns}
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{Sumapaz.ltx/caudal.melgar.png}
+        
+        \column{0.5\textwidth}
+         \centering
+        \includegraphics[width=1\textwidth]{cdc.melgar.png}
+    \end{columns} 
+\end{frame}
+
+
+
+\section{Clima}
+
+
+\begin{frame}{Caracteristicas climaticas del area}
+     \centering
+    \includegraphics[width=1\textwidth]{Sumapaz.ltx/climograma.png}
+\end{frame}
+
+
+\begin{frame}{Efectos de ENSO}
+
+\begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width=0.6\textwidth]{Sumapaz.ltx/anomalias.precipitaciones.png}
+        
+    \end{minipage}
+\hfill
+    \begin{minipage}{\textwidth}
+        \centering
+        \includegraphics[width=0.6\textwidth]{enso.jpg}
+    \end{minipage}  
+\end{frame}
+
+\section{Conclusiones}
+
+
+
+\begin{frame}{Conclusiones}
+El estudio se propone de crear una base para mejorar medidas de adaptación y mitigación ante eventos climáticos extremos y garantizar el bienestar de las comunidades dependientes. 
+
+    \begin{itemize}
+        \item Implicaciones \\
+        \begin{itemize}
+            \item Alta susceptibilidad del río Sumapaz a avenidas por factores naturales (pendientes, caudales) y cambios climáticos.
+            \item Impacto significativo de la deforestación amazónica en el balance hídrico regional.
+            \item Impresivibilidad de patrones climaticos 
+        \end{itemize}
+        \bigskip
+        \item Llamado a la accion \\
+        \begin{itemize}
+            \item Monitoreo continuo del ciclo hidrológico.
+            \item Estudios adicionales sobre suelos, contaminación y efectos del cambio climático.
+            \item Implementacion inmediatas de medidas de adaptacion al cambio climatico 
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\end{document}
